@@ -1,3 +1,10 @@
+/*
+option add css
+  let css ='.nanobar{height: 3px;}.bar{ transition: height .9s;background:#f66;}';
+ var nanobar = new Nanobar({css:css});
+function add param 2 is color
+  nanobar.go(100,"#3bc")
+*/
 (function (root) {
   'use strict'
   // container styles
